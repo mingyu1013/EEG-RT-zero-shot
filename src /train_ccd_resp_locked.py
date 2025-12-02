@@ -36,7 +36,7 @@ from preprocessing_ccd_resp import (
 SEED = 2025
 
 # strict split 설정
-# → Train: R2, R3, R5 / Val: R1 / Test(제로샷): R4
+# → Train / Val / Test(제로샷)
 TRAIN_RELEASES = ["R2", "R3", "R5"]
 VAL_RELEASES   = ["R1"]
 TEST_RELEASES  = ["R4"]
