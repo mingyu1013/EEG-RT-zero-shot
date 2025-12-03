@@ -136,7 +136,7 @@ Non-CCD 데이터는 CCD RT 예측에 **큰 기여를 하지 못할 것**으로 
 
 본 프로젝트의 모델은 **EEGNet 기반 단일 인코더 + 회귀 헤드(MLP)** 구조로 구성됩니다.
 
-![모델 구조](figures/EEG%20모델%20구조.png)
+![모델 구조](figure/1.png)
 
 - **Backbone**:  
   - EEGNet 인코더  
